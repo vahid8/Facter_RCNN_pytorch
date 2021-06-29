@@ -1,0 +1,16 @@
+# Input Directories
+TRAIN_LABLE: 'labels/train.csv'
+TRAIN_IMAGE: 'images/train/'
+TEST_LABLE: 'labels/test.csv'
+TEST_IMAGE: 'images/test/'
+
+# Output Directories to save the checkpoints and final results
+DIR_OUT: 'model/RUN_0'
+
+
+CLASS_NUM : 24  # 1 class reserved for background #76
+EPOCHS_NUM : 1
+IMG_SIZE : 640   
+
+
+
